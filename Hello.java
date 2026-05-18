@@ -1,17 +1,15 @@
 public class Hello {
     public static void main(String[] args) {
-       byte b = 127;
-       int a = b;
+      
         
+        int num1 = 7;
+        // int num2 = 5;
 
+        // int result = num1 % num2;
 
-       System.out.println(a);
+        num1 += num1 + 1;
+
+        System.out.println(num1);
 
     }
 }
-
-// Primitive Data types
-// 1. int (byte , short , int , long)
-// 2. float (float , double)
-// 3. char (char)
-// 4. boolean (boolean)
