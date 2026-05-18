@@ -13,3 +13,16 @@ public class Hello {
 
     }
 }
+
+// Relational Operators
+// == , != , > , < , >= , <=
+// Logical Operators
+// && , || , !
+// Bitwise Operators
+// & , | , ^ , ~ , << , >> , >>>
+// Assignment Operators
+// = , += , -= , *= , /= , %=
+// Increment and Decrement Operators
+// ++ , --
+// Ternary Operator
+// ? :
