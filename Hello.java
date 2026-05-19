@@ -1,16 +1,16 @@
 public class Hello {
     public static void main(String[] args) {
-        int x = 10;
+      int num = 4;
 
-        if (x > 10){
-            System.out.println("Hello");
-        }
-        else if(x < 10){
-            System.out.println("Bye");
-        }
+    //   if(num % 2 == 0){
+    //     System.out.println("Even");
+    //   }
+    //   else{
+    //     System.out.println("Odd");
+    //   }
 
-        else if(x == 10){
-            System.out.println("Hello World ");
-        }
+
+    char result = (num % 2 == 0) ? 'E' : 'O';
+    System.out.println(result);
     }
 }
