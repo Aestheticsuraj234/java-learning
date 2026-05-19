@@ -5,8 +5,12 @@ public class Hello {
         if (x > 10){
             System.out.println("Hello");
         }
-        else{
+        else if(x < 10){
             System.out.println("Bye");
+        }
+
+        else if(x == 10){
+            System.out.println("Hello World ");
         }
     }
 }
