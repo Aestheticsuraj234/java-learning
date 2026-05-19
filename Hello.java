@@ -1,16 +1,18 @@
 public class Hello {
     public static void main(String[] args) {
-      int num = 4;
+    // While Loop
+    int i = 1;
+    while(i <= 10){
+      System.out.println("Hello" + i);
+        int j = 1;
+      while(j<=3){
+        System.out.println("World" + j);
+        j++;
+      }
 
-    //   if(num % 2 == 0){
-    //     System.out.println("Even");
-    //   }
-    //   else{
-    //     System.out.println("Odd");
-    //   }
+      System.out.println();
+      i++;
+    }
 
-
-    char result = (num % 2 == 0) ? 'E' : 'O';
-    System.out.println(result);
     }
 }
