@@ -1,3 +1,4 @@
+package classes;
 
 class A{
     public A(){

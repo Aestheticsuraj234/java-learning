@@ -1,3 +1,5 @@
+package inheritance;
+
 class A{
     String name = "parent";
 

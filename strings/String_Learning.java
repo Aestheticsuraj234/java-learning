@@ -1,3 +1,5 @@
+package strings;
+
 public class String_Learning {
     public static void main(String a[]) {
         String name = new String("Suraj");
