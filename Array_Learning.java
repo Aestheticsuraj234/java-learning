@@ -1,36 +1,33 @@
+
+class Students {
+    int rollno;
+    String name;
+    int marks;
+}
+
 public class Array_Learning {
     public static void main(String[] args) {
-        int nums[][] = new int[3][]; // jagged array;
+        // Students s1 = new Students();
+        // s1.rollno = 1;
+        // s1.name = "Suraj";
+        // s1.marks = 99;
 
-        nums[0] = new int[2];
-        nums[1] = new int[3];
-        nums[2] = new int[4];
+        // Students s2 = new Students();
+        // s2.rollno = 2;
+        // s2.name = "Raj";
+        // s2.marks = 98;
 
-        for(int i=0; i<nums.length;i++){
-            for(int j=0;j<nums[i].length;j++){
-                nums[i][j] = (int)(Math.random()*10);
-            }
-        }
-     
-       
-    //    for(int i = 0; i < 3; i++){
-    //     for(int j = 0; j < 4; j++){
-    //         nums[i][j] = (int) (Math.random() * 100);
-    //         System.out.print(nums[i][j] + " ");
-    //     }
-    //     System.out.println();
-    // }
+        // Students s3 = new Students();
+        // s3.rollno = 3;
+        // s3.name = "Rohan";
+        // s3.marks = 97;
 
-
-        for(int n[] : nums){
-                for(int m:n){
-                    System.out.print(m + " ");
-                }
-                System.out.println();
-        }
+        // Students students[] = new Students[3];
+        // students[0] = s1;
+        // students[1] = s2;
+        // students[2] = s3;
 
         
-
 
     }
 }
