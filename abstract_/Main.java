@@ -1,46 +1,36 @@
 package abstract_;
 
-// class -- class // extends
-//  interface -- interface // extends
-// class -- interface // implements
-// interface -- class // not possible
-
-interface A {
-    int age = 25;
-    String area = "pune";
-
-    void show();
-
-    void connect();
+abstract class Computer {
+    public abstract void code();
 }
 
-interface C {
-    void display();
+class Laptop extends Computer {
+    public void code() {
+        System.out.println("Code ,Compile , Run");
+    }
 }
 
-class B implements A, C {
-    public void show() {
-        System.out.println("show method");
+class Desktop extends Computer {
+    public void code() {
+        System.out.println("Code ,Compile , Run");
     }
+}
 
-    public void connect() {
-        System.out.println("connect method");
-    }
+class Developer {
+    public void devApp(Laptop lap) {
+        lap.code();
 
-    public void display() {
-        System.out.println("display method");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        A obj;
-        obj = new B();
-        obj.show();
-        obj.connect();
 
-        C obj1;
-        obj1 = new B();
-        obj1.display();
+        Computer lap = new Laptop();
+        Computer desk = new Desktop();
+        Developer dev = new Developer();
+
+        dev.devApp((Laptop) lap);
+
     }
 }
